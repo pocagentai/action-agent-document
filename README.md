@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: agent
-        uses: pocagentai/action-agent-document@v1
+        uses: pocagentai/action-agent-document@v1.0
 ```
 
 ## License
