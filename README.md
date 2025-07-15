@@ -1,2 +1,22 @@
 # action-agent-document
-action para integrar agent que pueda ser capaz de hacer revisiones de codigo.
+action para integrar agent que realiza documentacion de los cambios realizado en repositorio.
+ 
+## Example usage
+
+```yaml
+on: [push]
+
+jobs:
+  aws_cdk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: agent
+        uses: pocagentai/action-agent-document@v1
+```
+
+## License
+
+
+## Authors
+
+Rafael Fernandez 

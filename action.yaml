@@ -1,0 +1,5 @@
+name: 'Action Agent Document  GitHub Actions'
+description: 'action para integrar agent que realiza documentacion de los cambios realizado en repositorio.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
