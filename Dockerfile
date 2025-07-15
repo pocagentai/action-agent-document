@@ -1,4 +1,4 @@
-FROM ghcr.io/pocagentai/image-action-agent-document:latest
+FROM ghcr.io/pocagentai/img-action-agent-document:latest
 
 COPY entrypoint.sh /entrypoint.sh
 
