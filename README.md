@@ -7,7 +7,7 @@ action para integrar agent que realiza documentacion de los cambios realizado en
 on: [push]
 
 jobs:
-  aws_cdk:
+  aagent:
     runs-on: ubuntu-latest
     steps:
       - name: agent
