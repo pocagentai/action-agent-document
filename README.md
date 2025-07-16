@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: agent
         uses: pocagentai/action-agent-document@v1.0
+        with:
+          CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
+          QUEUE_NAME: ${{ vars.QUEUE_NAME }}
 ```
 
 ## License

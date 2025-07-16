@@ -1,5 +1,17 @@
 name: 'Action Agent Document  GitHub Actions'
 description: 'action para integrar agent que realiza documentacion de los cambios realizado en repositorio.'
+
+inputs:
+  DIFF:
+    description: "value of diff"
+    required: false
+  CONNECTION_STRING:
+    description: "value of connection string"
+    required: true
+  QUEUE_NAME:
+    description: "value of queue name"
+    required: true
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
